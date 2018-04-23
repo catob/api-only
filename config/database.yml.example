@@ -1,0 +1,15 @@
+development:
+ adapter: postgresql
+ database: user_api
+ username: cato
+ host: localhost
+ pool: 5
+ timeout: 5000
+
+test:
+ adapter: postgresql
+ database: user_api_test
+ username: cato
+ host: localhost
+ pool: 5
+ timeout: 5000
