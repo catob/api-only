@@ -8,7 +8,7 @@ RSpec.describe 'Users API', type: :request do
 
     it 'returns users' do
       expect(response.status).to eq 200
-      expect(response.body).to match 'CatoOo'
+      expect(response.body).to match user.name
     end
   end
 end
